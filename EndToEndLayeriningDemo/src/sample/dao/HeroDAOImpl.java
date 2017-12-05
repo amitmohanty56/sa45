@@ -12,7 +12,7 @@ import sample.model.HeroDTO;
 import sample.model.HeroSearchDTO;
 
 public class HeroDAOImpl implements HeroDAO {
-	private static final String dbUrl = "jdbc:mysql://localhost:3306/sample";
+	private static final String dbUrl = "jdbc:mysql://localhost:3306/sample?useSSL=false";
 	private static final String dbUserName = "root";
 	private static final String dbPassword = "password";
 
